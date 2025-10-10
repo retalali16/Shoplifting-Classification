@@ -1,6 +1,6 @@
 # 🎥Shoplifting Video Classifier:  CNN + BiLSTM
 
-Binary video classification using a ** CNN** for frame features and a **BiLSTM** for temporal modeling. Includes preprocessing, augmentation, class balancing, and mixed-precision training.
+Binary video classification using a **CNN** for frame features and a **BiLSTM** for temporal modeling. Includes preprocessing, augmentation, class balancing, and mixed-precision training.
 
 ## ✨ Features
 -  Supports `.mp4`, `.avi`, `.mov`, `.mkv`, etc.  
