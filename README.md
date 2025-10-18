@@ -1,5 +1,4 @@
-# 🎥Shoplifting Video Classifier:  CNN + BiLSTM
-
+# 🎥Shoplifting Video Classifier
 # Phase 1 Binary video classification using a **CNN** for frame features and a **BiLSTM** for temporal modeling. Includes preprocessing, augmentation, class balancing, and mixed-precision training.
 
 ## ✨ Features
