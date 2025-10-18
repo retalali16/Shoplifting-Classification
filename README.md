@@ -1,6 +1,6 @@
 # 🎥Shoplifting Video Classifier:  CNN + BiLSTM
 
-Binary video classification using a **CNN** for frame features and a **BiLSTM** for temporal modeling. Includes preprocessing, augmentation, class balancing, and mixed-precision training.
+# Phase 1 Binary video classification using a **CNN** for frame features and a **BiLSTM** for temporal modeling. Includes preprocessing, augmentation, class balancing, and mixed-precision training.
 
 ## ✨ Features
 -  Supports `.mp4`, `.avi`, `.mov`, `.mkv`, etc.  
@@ -11,10 +11,8 @@ Binary video classification using a **CNN** for frame features and a **BiLSTM** 
 -  Automatic F1-based threshold selection  
 - 📊 Outputs: classification report, confusion matrix, training curves  
 
-## 🛠️ Requirements
-```bash
-pip install tensorflow opencv-python numpy scikit-learn matplotlib tqdm
-# Shoplifting Detection using MobileNetV2 + BiLSTM
+
+# Phase 2 Shoplifting Detection using MobileNetV2 + BiLSTM
 
 This project detects suspicious or shoplifting activities in CCTV footage using a deep learning model that combines **MobileNetV2** (for spatial feature extraction) and **BiLSTM** (for temporal sequence learning).
 
@@ -27,6 +25,6 @@ This project detects suspicious or shoplifting activities in CCTV footage using 
 - **Augmentation:** Flip, brightness, contrast, and zoom transformations
 
 ---
-
-## 🧩 Model Architecture
-
+## 🛠️ Requirements
+```bash
+pip install tensorflow opencv-python numpy scikit-learn matplotlib tqdm
